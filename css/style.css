@@ -1,0 +1,18 @@
+/*GLOBAL
+=========*/
+
+/*NAV BAR
+==========*/
+
+
+
+/*HERO BANNER
+==============*/
+
+.jumbotron {
+    background-image: url(../images/hero-image.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+}
