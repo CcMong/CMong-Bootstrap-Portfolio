@@ -1,6 +1,10 @@
 /*GLOBAL
 =========*/
 
+* {
+    box-sizing: border-box;
+}
+
 /*NAV BAR
 ==========*/
 
@@ -13,6 +17,22 @@
     background-image: url(../images/hero-image.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    /*height: 500px;*/
     height: calc(100vh - 25px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.jumbo-copy-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 35%;
+}
+
+.jumbo-copy-left {
+    margin-right: auto;
 }
