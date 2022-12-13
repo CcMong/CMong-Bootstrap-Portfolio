@@ -141,3 +141,23 @@ h2 {
     margin-top: 20px;
 }
 
+/*SKILLS
+---------*/
+
+/*To get rid of the bulletpoints on the list, so they can be replaced by the icons*/
+.skill-list {
+    list-style: none;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.skill-list i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+
