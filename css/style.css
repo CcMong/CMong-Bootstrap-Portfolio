@@ -127,3 +127,17 @@ h1, h2, h3, h4, h5, h6 {
 .display-4 {
     font-size: 35px;
 }
+
+/*PORTFOLIO
+------------*/
+
+h2 {
+    display: inline-block;
+    border-bottom: 2px solid cadetblue;
+    padding-top: 20px;
+}
+
+.cardContainer {
+    margin-top: 20px;
+}
+
