@@ -167,5 +167,33 @@ h3 {
     margin-top: 10px;
 }
 
+/*FOOTER
+=========*/
+
+.txt-center {
+    text-align: center;
+}
+
+.icon-img {
+    width: 30px;
+}
+
+.txt-center a {
+    display: inline-block;
+}
+
+.txt-center a:hover {
+    background-color: gray;
+}
+
+footer {
+    padding: 20px;
+    margin: 10px;
+}
+
+a #my-email:hover {
+    text-shadow: #16181b;
+}
+
 
 
