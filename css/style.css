@@ -14,8 +14,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*NAV BAR
-==========*/
+/*BODY
+=======*/
+
+/*NAVIGATION BAR
+-----------------*/
+
+.nav-custom {
+    position: fixed;
+    width: 100%;
+    background: url("./images/nav-bg.png");
+    background-size: cover;
+    background-color: transparent !important;
+    z-index: 10;
+}
+
+.nav-custom a {
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-brand img {
+    padding-right: 15px;
+    width: 30px;
+}
 
 
 
