@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 10px 0px 15px;
 }
 
+/*CSS Variables*/
+
+:root {
+    --hover-color: orange;
+}
+
 
 /*BODY
 =======*/
@@ -23,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-custom {
     position: fixed;
     width: 100%;
-    background: url("./images/nav-bg.png");
+    background: url("../images/nav-bg.png");
     background-size: cover;
     background-color: transparent !important;
     z-index: 10;
@@ -42,6 +48,42 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 15px;
     width: 30px;
 }
+
+/*Customise the dropdown menu*/
+
+.dropdown-menu {
+    background: url("../images/nav-bg.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: var(--hover-color);
+  }
+  
+  /*Adding hover functionality to the navbar links*/
+  
+  .navbar .navbar-nav .nav-link:hover {
+      background-color: var(--hover-color);
+  }
+  
+  .navbar .navbar-brand:hover {
+      background-color:rgba(0, 0, 0, 0.244);
+  }
+  /*To make the hover effect cover most of the navbar height
+  But only on larger screens*/
+  
+  @media screen and (min-width: 992px) {
+      .navbar {
+      margin: 0;
+      }
+  
+      .navbar .navbar-nav .nav-link {
+      padding: 1em;
+      }
+  }
 
 
 
