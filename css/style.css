@@ -167,6 +167,10 @@ h3 {
     margin-top: 10px;
 }
 
+a #my-email:hover {
+    text-shadow: #16181b;
+}
+
 /*FOOTER
 =========*/
 
@@ -191,9 +195,7 @@ footer {
     margin: 10px;
 }
 
-a #my-email:hover {
-    text-shadow: #16181b;
-}
+
 
 
 
